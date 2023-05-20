@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-header {
+.header {
     background: #1F2937;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 100px;
+    margin: 0 50px;
+}
+
+.header-content-container {
+    margin: 0 50px;
+    display: flex;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.header-image {
+    width: 350px;
 }
 
 .logo {
@@ -40,4 +55,9 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
 }
