@@ -1,11 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
 
+/* Universal */
+
+*{
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     margin: 0;
 }
+
+.button {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 6px;
+}
+
+/* Unique */
+
+
+/* Header */
 
 .header {
     background: #1F2937;
@@ -20,22 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 50px;
-}
-
-.header-content-container {
-    margin: 0 50px;
-    display: flex;
-}
-
-.header-info {
-    display: flex;
-    flex-direction: column;
-    margin-right: 50px;
-}
-
-.header-image {
-    width: 350px;
+    margin: 0 100px 50px 100px;
 }
 
 .logo {
@@ -45,7 +49,7 @@ body {
 
 .links-container {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     list-style: none;
     padding: 0;
 
@@ -57,7 +61,84 @@ a {
     font-size: 18px;
 }
 
-.button {
-    width: 100px;
-    height: 40px;
+.header-content-container {
+    margin: 0 100px 90px 100px;
+    display: flex;
+    align-items: center;
 }
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.hero-text {
+    margin: 0;
+    font-size: 48px;
+}
+
+.header-button {
+    background: #3882F6;
+    color: white;
+}
+
+.header-image {
+    width: 650px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* Section 02 */
+
+.section01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 100px 90px 100px;
+
+}
+
+.section01-header-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card-single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.illustration {
+    width: 120px;
+    height: 120px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.subtext {
+    text-align: center;
+    padding: 0 25px;
+    color: #545557;
+}
+
+
+.section02 {
+    background: #E5E7EB;
+}
+
+
+
+
+
